@@ -1,0 +1,7 @@
+sudo apt-get update
+sudo apt-get install apache2 mysql-server php libapache2-mod-php php-mysql
+sudo apache2ctl configtest
+sudo ufw app list
+
+
+https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04
